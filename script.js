@@ -1,14 +1,9 @@
-var a = 10;
-let b = 20.5;
-const c = "30 anos";
-let d = true;
-let e = null;
-let f = undefined;
+let a = "Nome Sobrenome"
+    //   0123456789
+console.log(a.length)
+console.log(a.slice(5))
+console.log(a.substring(3, 6))
+console.log(a.toUpperCase())
+console.log(a.toLowerCase())
 
-/*console.log(a)
-console.log(b)
-console.log(c)
-console.log(d)
-console.log(e)
-console.log(f)*/
-console.log(a+b)
+console.log(a.at(7))
